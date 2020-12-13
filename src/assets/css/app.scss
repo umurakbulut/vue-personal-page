@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400;700&display=swap");
+#app {
+    font-family: "Public Sans", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h1,
+.h2,
+.h3 {
+    display: block;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.h1 {
+    font-size: 48px;
+}
+
+.h2 {
+    font-size: 36px;
+}
+
+.h3 {
+    font-size: 24px;
+}
+
+.row-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
